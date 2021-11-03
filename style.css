@@ -1,0 +1,297 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.brand-title{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2.5rem;
+  color: #000;
+}
+.brand-title:hover{
+  color:#ff523b;
+}
+body{
+  font-family: 'Ubuntu', sans-serif;
+}
+/*#090E12
+#1F6D21
+#8DB135*/
+.navbar{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+.links{
+  color: #000;
+
+}
+nav{
+  flex: 1;
+  text-align: right;
+}
+
+nav ul{
+  display: inline-block;
+  list-style-type: none;
+}
+
+nav ul li{
+  display: inline-block;
+  margin-right: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #555;
+}
+
+p{
+  color: #555;
+}
+
+.container{
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.row{
+  display: flex;
+  align-items: center;
+  flex-wrap:wrap;
+  justify-content:space-around;
+}
+.col-2{
+  flex-basis: 50%;
+  min-width: 450px;
+
+}
+.col-2 img{
+  max-width: 100%;
+  padding: 50px 0;
+}
+.col-2 .h1{
+  font-size: 50px;
+  line-height: 60px;
+  margin: 25px 0;
+}
+.btn{
+  display: inline-block;
+  background: #ff523b;
+  color: #fff;
+  padding: 8px 30px;
+  margin: 30px 0;
+  border-radius: 30px;
+  transition: background 0.5s;
+}
+.btn:hover{
+  background: #563434;
+}
+.header{
+  background: radial-gradient(#fff,#ffd6d6);
+}
+.header .row{
+  margin-top: 70px;
+}
+
+.fab-icon{
+
+  width: 30px;
+  height: 30px;
+}
+
+.categories{
+  margin: 70px 0;
+}
+.cate{
+  flex-basis: 25%;
+  min-width: 260px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.small-container{
+  max-width: 1080px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.small-container h3{
+  font-weight: 300;
+  font-size: 1.20rem;
+  padding-bottom: 70px;
+}
+.small-container h2{
+  font-weight:400;
+  font-size: 2rem;
+}
+.prod{
+  flex-basis: 25%;
+  padding: 10px;
+  min-width: 200px;
+  margin-bottom: 50px;
+  transition: transform 0.5;
+}
+.prod img{
+  width: 100%;
+}
+
+.small-container h4{
+  font-weight: 300;
+  font-size: 1rem;
+}
+.title{
+  text-align: center;
+  margin: 0 auto 80px;
+  position: relative;
+  line-height: 60px;
+  color: #555;
+}
+
+.title::after{
+  content: '';
+  background: #ff523b;
+  width: 80px;
+  height: 5px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.col-4 p{
+  font-size: 14px;
+}
+.rating{
+  color: #ff523b;
+}
+
+.col-4:hover{
+  transform: translateY(-5px);
+}
+.offer{
+  background: radial-gradient(#fff,#ffd6d6);
+  padding: 30px 0;
+}
+small{
+  color: #555;
+}
+.testi-img{
+  width: 100px;
+  height: 177.78px;
+  margin-top: 20px;
+}
+
+.testimonial{
+  padding-top: 100px;
+}
+
+.testimonial .col-3{
+  text-align: center;
+  padding: 40px 20px;
+  box-shadow: 0 0 20px 0px rgba(0,0,0,0.1);
+  cursor: pointer;
+  transition: transform 0.5s;
+}
+.testimonial .col-3:hover{
+  transform: translateY(-10px);
+}
+.test-quote{
+  font-size: 34px;
+  color: #ff523b;
+}
+.col-3 p{
+  font-size: 12px;
+  margin: 12px 0;
+  color: #777;
+}
+
+.testimonial .col-3 h3{
+  font-weight: 600;
+  color: #555;
+  font-size: 16px;
+}
+.brands{
+  margin: 100px auto;
+}
+.col-5{
+  flex-basis: 25%;
+}
+.col-5 img{
+  width: 80%;
+  cursor: pointer;
+  filter: grayscale(100%);
+}
+.col-5 img:hover{
+  filter: grayscale(0);
+}
+
+.footer{
+  background: #090E12;
+  color: #8a8a8a;
+  font-size: 14px;
+  padding: 60px 0 20px;
+}
+.footer p{
+  color: #8a8a8a;
+}
+.footer h3{
+  color: #fff;
+  margin-bottom: 20px;
+}
+.footer-col-1, .footer-col-2, .footer-col-3, .footer-col-4{
+  min-width: 250px;
+  margin-bottom: 20px;
+}
+.footer-col-1{
+  flex-basis: 30%;
+}
+.footer-col-2{
+  flex:1;
+  text-align: center;
+}
+.footer-col-2 img{
+  width: 180px;
+  margin-bottom: 20px;
+}
+.footer-col-3, .footer-col-4{
+  flex-basis: 12%;
+  text-align: center;
+}
+ul{
+  list-style-type: none;
+}
+.app-logo{
+  margin-top: 20px;
+}
+.app-logo img{
+  width: 140px;
+}
+.dl-logo{
+  border-style: solid;
+  border-radius: 7.5%;
+  border-color: white;
+}
+.footer hr{
+  border: none;
+  background: #b5b5b5;
+  height: 1px;
+  margin: 20px 0;
+}
+.copyright{
+  text-align: center;
+}
+.menu-icon{
+  width: 28px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 600px){
+  .row{
+    text-align: center;
+  }
+  .col-2, .col-3, .col-4{
+    flex-basis: 100%;
+  }
+}
